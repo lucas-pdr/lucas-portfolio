@@ -559,7 +559,10 @@ footer p {
 .delay-3 { animation-delay: 0.6s; }
 
 /* Media Queries */
-@media (max-width: 767px) {
+@media (max-width: 768px) {
+    body {
+        padding: 0 20px;
+    }
     .nav-links {
         display: none; /* Esconde links de navegação em telas pequenas */
     }
@@ -664,4 +667,5 @@ footer p {
     .projects-grid {
         grid-template-columns: repeat(3, 1fr); /* Três colunas em telas ainda maiores */
     }
+
 }
